@@ -1,9 +1,42 @@
+:root {
+    --branding-color: #0057B7;
+    --default-font: 'Poppins', sans-serif;
+    --heading-font: 'Tiro Devanagari Hindi',
+        serif;
+    --secondary-color: #FFDD00;
+
+}
 h1 {
     color: black;
-    font-family: 'Tiro Devanagari Hindi', serif;
+    font-family: var(--heading-font);
     font-weight: bold;
+    font-size: 96px;
 }
 p {
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--default-font);
     font-weight: normal;
+}
+.hero {
+background-color: var(--secondary-color);
+text-align: center;
+padding: 170px 20px;
+}
+.hero p {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+.hero h2 {
+    font-weight: normal;
+    font-size: 24px;
+    font-family: var(--default-font);
+    line-height: 2;
+}
+.btn-branding {
+background-color: var(--branding-color);
+border-radius: 4px;
+color: white;
+font-size: 18px;
+line-height:27px;
+padding:  15px, 30px;
 }
