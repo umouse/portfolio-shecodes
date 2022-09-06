@@ -65,19 +65,19 @@ padding: 170px 20px;
     line-height: 27px;
     padding: 15px 30px;
 }
-.about-container h2{
+.content-container h2{
     font-size: 20px;
     line-height: 1;
 }
-.about-container h1{
+.content-container h1{
     font-size: 60px;
 }
-.about-container p{
+.content-container p{
     font-size: 15px;
     font-family: var(--default-font);
     line-height: 30px;
 }
-.about-content{
+.content{
     margin: 30px;
     padding: 0                  ;
 }
