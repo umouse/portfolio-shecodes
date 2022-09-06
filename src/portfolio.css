@@ -17,17 +17,20 @@ h6 {
     font-weight: bold;
 }
 h1 {
-    font-size: 96px;
+    font-size: 70px;
     line-height: 1.5;
 }
 h2{
-    font-size: 64px;
+    font-size: 62px;
 }
 p {
     font-family: var(--default-font);
     font-weight: normal;
     font-size: 16px;
     line-height: 30px;
+}
+img {
+    border-radius: 7px;
 }
 .hero {
 background-color: var(--secondary-color);
@@ -61,6 +64,22 @@ padding: 170px 20px;
     font-size: 18px;
     line-height: 27px;
     padding: 15px 30px;
+}
+.about-container h2{
+    font-size: 20px;
+    line-height: 1;
+}
+.about-container h1{
+    font-size: 60px;
+}
+.about-container p{
+    font-size: 15px;
+    font-family: var(--default-font);
+    line-height: 30px;
+}
+.about-content{
+    margin: 30px;
+    padding: 0                  ;
 }
 
 @media (max-width: 900px) {
