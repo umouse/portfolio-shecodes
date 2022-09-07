@@ -77,9 +77,26 @@ padding: 170px 20px;
     font-family: var(--default-font);
     line-height: 30px;
 }
+.content-container{
+    background-color: #eef2e2;
+}
 .content{
     margin: 30px;
     padding: 0                  ;
+}
+.icon-nav{
+    max-width: 150px;
+    height: 80px;
+}
+.navbar-custom {
+    background-color: #247291;
+}
+.active {
+    color: #f8da5b !important;
+}
+.nav-item{
+    padding: 0 20px;
+    text-align: right;
 }
 
 @media (max-width: 900px) {
