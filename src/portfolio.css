@@ -46,7 +46,6 @@ text-align: center;
 padding: 100px 20px;
 }
 .info{
-    border:1px solid var(--secondary-color);
     border-radius: 4px;
     padding: 20px;
 }
@@ -191,5 +190,11 @@ footer .social-links a:hover {
     .project-description {
         padding: 0;
         text-align: center;
+    }
+
+    .info, .greetings {
+        font-size: 20px;
+        text-align: center;
+
     }
 }
