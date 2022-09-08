@@ -35,6 +35,7 @@ p {
     font-size: 16px;
     line-height: 30px;
 }
+
 img {
     border-radius: 7px;
     max-height:636px;
@@ -45,6 +46,13 @@ background: linear-gradient(181.2deg, rgb(181, 239, 249) 10.5%, rgb(254, 254, 25
 text-align: center;
 padding: 100px 20px;
 }
+.hero h2 {
+    font-weight: normal;
+    font-size: 24px;
+    font-family: var(--heading-font);
+    line-height: 1.5;
+}
+
 .info{
     border-radius: 4px;
     padding: 20px;
@@ -65,12 +73,6 @@ padding: 100px 20px;
 
 }
 
-.hero h2 {
-    font-weight: normal;
-    font-size: 24px;
-    font-family: var(--heading-font);
-    line-height: 1.5;
-}
 .about-text {
     font-weight: bold;
     font-size: 18px;
@@ -96,6 +98,12 @@ padding: 100px 20px;
     line-height: 27px;
     padding: 15px 30px;
 }
+.project-desciption {
+    padding: 120px 60px;
+}
+.content-container {
+    background-color: #eef2e2;
+}
 .content-container h2{
     font-size: 20px;
     line-height: 1;
@@ -108,9 +116,7 @@ padding: 100px 20px;
     font-family: var(--default-font);
     line-height: 30px;
 }
-.content-container{
-    background-color: #eef2e2;
-}
+
 .content{
     margin: 30px;
     padding: 0                  ;
@@ -139,21 +145,16 @@ padding: 100px 20px;
     align-items: center;
 }
 
-.project-desciption {
-    padding: 120px 60px;
-}
-
-
 footer {
     margin: 0 auto;
 }
-footer .email-link {
+footer .email-link, .github-link {
     text-decoration: none;
     color: var(--font-color);
-    font-size: 24px;
+    font-size: 20px;
 }
 
-footer .email-link:hover {
+footer .email-link:hover, .github-link:hover {
     color: black;
 }
 footer .social-links a {
@@ -171,6 +172,7 @@ footer .social-links a:hover {
     background: #FFFEFF;
     border: 1px solid black;
 }
+
 
 @media (max-width: 900px) {
     h1 {
