@@ -25,9 +25,7 @@
     <title>Portfolio | Yuliia Ishchenko</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
-      <div class="container-fluid">
-        <img class="icon-nav" src="images/icon-navbar.jpg" alt="Woman coding" />
+    <nav class="navbar navbar-expand-lg fixed-top navbar-custom">
         <a class="navbar-brand" href="index.html"> Yuliia Ishchenko </a>
 
         <button
@@ -48,73 +46,93 @@
             >
             <a class="nav-link" href="about.html">About</a>
             <a class="nav-link" href="work.html">Work</a>
-            <a class="nav-link" href="work.html#edu">Certifications</a>
-            <a class="nav-link" href="about.html#contact">Contact</a>
+            <a class="nav-link" href="about.html#education">Certifications</a>
+            <a class="nav-link d-none d-md-block" href="about.html#contact">Contact</a>
           </div>
         </div>
       </div>
     </nav>
+    <div class="ukraine-box">
+      <p class="d-none d-lg-block">Help Ukraine win this war!</p>
+      <h4>🇺🇦 Support Ukraine 🇺🇦</h4>
+      <p class="d-none d-lg-block">Every donation matters!</p>
+      <a href="https://u24.gov.ua/dronation" class="btn btn-branding" id="help">
+        Donate
+      </a>
+    </div>
     <div class="hero">
-      <p>👋 Hello, I am</p>
+      <p class="greetings">👋 Hello, I am</p>
       <h1>Yuliia Ishchenko</h1>
       <h2 class="mb-5">🇺🇦 Front-end developer, based in Berlin 🇩🇪</h2>
-      <div>
-        <a href="#" class="btn btn-branding">Contact me</a>
+      <div class="hero-buttons">
+        <a href="mailto:yula.ishchenko@com" class="btn btn-branding mr-5"
+          >Contact me</a
+        >
+        <a
+          href="https://www.linkedin.com/in/yuliia--ishchenko"
+          class="btn btn-branding"
+          >Visit LinkedIn</a
+        >
       </div>
     </div>
-    <p class="text-center m-5">
-      Featured Project which my best projects be choice to show
-    </p>
-    <div class="container">
+    <p class="info text-center">You can find my recent projects below</p>
+    <div class="container mt-5 mb-5">
       <div class="row mb-5">
-        <div class="col d-none d-lg-block">
-          <img src="images/yogurt.png" class="img-fluid" alt="Yogurt project" />
-        </div>
-        <div class="col-sm-6 description">
-          <h1 class="mb-5">Yogurt project</h1>
-          <p class="mb-5 text-muted">
-            Far far away, behind the word mountains, far from the countries
-            Vokalia and Consonantia, there live the blind texts. Separated they
-            live in Bookmarksgrove right at the coast of the Semantics, a large
-            language ocean. A small river named Duden flows by
-          </p>
-          <a href="#" class="btn btn-branding-outline">Learn more</a>
-        </div>
-      </div>
-      <div class="row mb-5">
-        <div class="col description">
-          <h1 class="mb-5">Weather app</h1>
-          <p class="mb-5 text-muted">
-            Far far away, behind the word mountains, far from the countries
-            Vokalia and Consonantia, there live the blind texts. Separated they
-            live in Bookmarksgrove right at the coast of the Semantics, a large
-            language ocean. A small river named Duden flows by
-          </p>
-          <a href="#" class="btn btn-branding-outline">Learn more</a>
-        </div>
-        <div class="col d-none d-lg-block">
-          <img src="images/weather.png" class="img-fluid" alt="Weather app" />
-        </div>
-      </div>
-      <div class="row">
         <div class="col d-none d-lg-block">
           <img
-            src="images/dictinary.png"
+            src="images/tea-page.png"
             class="img-fluid"
-            alt="Dictinary app"
+            alt="Landing page about green tea"
           />
         </div>
-        <div class="col description">
-          <h1 class="mb-5">Dictinary app</h1>
+        <div class="col-sm-6 project-description">
+          <h1 class="mb-5">Landing page</h1>
           <p class="mb-5 text-muted">
-            Far far away, behind the word mountains, far from the countries
-            Vokalia and Consonantia, there live the blind texts. Separated they
-            live in Bookmarksgrove right at the coast of the Semantics, a large
-            language ocean. A small river named Duden flows by
+            My very first project. Landing page about green tea, was done as a
+            final project of Shecodes | Intro to coding
           </p>
-          <a href="#" class="btn btn-branding-outline">Learn more</a>
+          <a href="work.html#tea" class="btn btn-branding-outline"
+            >Learn more</a
+          >
         </div>
       </div>
+      <div class="row mb-5">
+        <div class="col project-description">
+          <h1 class="mb-5">Weather app</h1>
+          <p class="mb-5 text-muted">
+            My second project. Weather app with complete functionality, was done
+            as a final project of Shecodes | Frontent development
+          </p>
+          <a href="work#weather.html" class="btn btn-branding-outline"
+            >Learn more</a
+          >
+        </div>
+        <div class="col d-none d-lg-block">
+          <img
+            src="images/weather-app.png"
+            class="img-fluid"
+            alt="Weather app"
+          />
+        </div>
+      </div>
+      <footer class="text-center mb-3">
+        <a
+          href="mailto:yula.ishchenko@gmail.com"
+          class="email-link text-center mb-3"
+          >yula.ishchenko@gmail.com</a
+        >
+        <div class="social-links text-center mt-5">
+          <a href="mailto:yula.ishchenko@gmail.com">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/yuliia--ishchenko/"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="https://www.instagram.com/wonderula/"
+            ><i class="fa-brands fa-square-instagram"></i
+          ></a>
+        </div>
+      </footer>
     </div>
   </body>
 </html>

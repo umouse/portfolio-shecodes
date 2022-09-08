@@ -1,18 +1,23 @@
 :root {
-    --secondary-color: #e2edf4;
+    --secondary-color: #ffc93c;
+    --font-color: #155263;
     --default-font: 'Poppins', sans-serif;
     --heading-font: 'Tiro Devanagari Hindi',
         serif;
-    --branding-color: #FFDD00;
+    --branding-color:#2873B9;
 
 }
+body {
+background: #FFFEFF
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-    color: black;
+    color:var(--branding-color);
     font-family: var(--heading-font);
     font-weight: bold;
 }
@@ -22,6 +27,7 @@ h1 {
 }
 h2{
     font-size: 62px;
+    color: var(--secondary-color);
 }
 p {
     font-family: var(--default-font);
@@ -31,22 +37,48 @@ p {
 }
 img {
     border-radius: 7px;
+    max-height:636px;
+    max-width: 636px;
 }
 .hero {
-background-color: var(--secondary-color);
+background: linear-gradient(181.2deg, rgb(181, 239, 249) 10.5%, rgb(254, 254, 254) 86.8%);
 text-align: center;
-padding: 170px 20px;
+padding: 100px 20px;
 }
-.hero p {
+.info{
+    border:1px solid var(--secondary-color);
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.info, .greetings, .ukraine-box p {
     font-size: 36px;
     font-weight: bold;
     margin: 0;
+    text-align: center;
+}    
+.ukraine-box h4{
+    font-size: 36px;
+    font-weight: bold;
+    color: var(--branding-color);
+    margin: 0 ;
+
+
 }
+
 .hero h2 {
     font-weight: normal;
     font-size: 24px;
     font-family: var(--heading-font);
     line-height: 1.5;
+}
+.about-text {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: var(--default-font);
+    max-width: 600px;
+    text-align: center;
+    color: black;
 }
 .btn-branding {
     background-color: var(--branding-color);
@@ -84,19 +116,61 @@ padding: 170px 20px;
     margin: 30px;
     padding: 0                  ;
 }
-.icon-nav{
-    max-width: 150px;
-    height: 80px;
-}
+
 .navbar-custom {
-    background-color: #247291;
+    background: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);;
 }
 .active {
-    color: #f8da5b !important;
+    color: var(--secondary-color)!important;
+}
+.nav-link{
+    color: var(--branding-color);
 }
 .nav-item{
     padding: 0 20px;
-    text-align: right;
+    text-align: center;
+}
+.ukraine-box,.contact-box {
+    background: radial-gradient(circle at 10% 20%, rgb(254, 255, 165) 0%, rgb(255, 232, 182) 90%);
+    display: flex;
+    text-align: center;
+    margin-top: 55px;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.project-desciption {
+    padding: 120px 60px;
+}
+
+
+footer {
+    margin: 0 auto;
+}
+footer .email-link {
+    text-decoration: none;
+    color: var(--font-color);
+    font-size: 24px;
+}
+
+footer .email-link:hover {
+    color: black;
+}
+footer .social-links a {
+    margin: 0 20px;
+    color: #FFFEFF;
+    background: var(--branding-color);
+    padding: 10px 14px;
+    border-radius: 20px;
+    font-size: 18px;
+    transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+    color: black;
+    background: #FFFEFF;
+    border: 1px solid black;
 }
 
 @media (max-width: 900px) {
@@ -108,8 +182,14 @@ padding: 170px 20px;
     h2 {
         font-size: 44px;
     }
-
+    h4 {
+        font-size: 26px;
+    }
     .hero {
         padding: 80px 20px;
+    }
+    .project-description {
+        padding: 0;
+        text-align: center;
     }
 }

@@ -25,9 +25,8 @@
     <title>About | Yuliia Ishchenko</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-custom">
       <div class="container-fluid">
-        <img class="icon-nav" src="images/icon-navbar.jpg" alt="Woman coding" />
         <a class="navbar-brand" href="index.html"> Yuliia Ishchenko </a>
 
         <button
@@ -48,34 +47,66 @@
               >About</a
             >
             <a class="nav-link" href="work.html">Work</a>
-            <a class="nav-link" href="work.html#edu">Certifications</a>
-            <a class="nav-link" href="about.html#contact">Contact</a>
+            <a class="nav-link" href="about.html#education">Certifications</a>
+            <a class="nav-link  d-none d-md-block" href="about.html#contact">Contact</a>
           </div>
         </div>
       </div>
     </nav>
-    <div class="about-container">
+    <div class="hero">
+      <div class="about-content">
+        <p class="greetings">Hi, I'm</p>
+        <h1 class="mb-3">Yuliia Ishchenko</h1>
+        <h2 class="mb-3">
+          Frontend Developer from Ukraine, now based in Berlin,Germany
+        </h2>
+        <p class="mb-5 text-muted text-center">
+          I'm a very energized and enthusiastic person that is good in back-end
+          development using Python, Flask, or Django and since recent times in
+          Front-end. I really enjoy gaining new skills and learning new things
+          to improve myself. Also, I always do all my work with attention to
+          detail due to my work experience as Quality Assurance Engineer in the
+          past. Previously, I was a professional swimmer and I know how to win
+          and achieve the goals you want. Passionate about board games and
+          travels.
+        </p>
+        <a href="work.html" class="btn btn-branding"> See my projects </a>
+      </div>
+    </div>
+    <div class="mb-3">
+      <p class="greetings mb-3" id="education">Recent certifications:</з>
       <div class="row">
-        <div class="col-lg-6">
-          <div class="about-content">
-            <h1 class="mb-5">Hi I'm Yuliia Ishchenko</h1>
-            <h2 class="mb-5">Frontend Developer, based in Germany</h2>
-            <p class="mb-5">
-              CHANGE!!!! For anyone who wants to start learning code, this
-              workshop is very interesting. You will be challenged with
-              different exercises, and everything is well explained, homework
-              and deadlines are good for keep focus
-            </p>
-            <a href="index.html" class="btn btn-branding"> See my projects </a>
-          </div>
+        <div class="col-lg-6 mb-3">
+          <img
+            class="img-fluid rounded"
+            src="images/shecodes-1.png"
+            alt="Certification by Shecodes. Topic: Introduction to coding."
+          />
+          <h3 class="text-center m-0">Introduction to Coding</h3>
         </div>
-
         <div class="col-lg-6">
           <img
-            class="img-fluid"
-            src="images/yuliia.jpg"
-            alt="Yuliia Ishchenko"
+            class="img-fluid rounded"
+            src="images/shecodes-2.png"
+            alt="Certification by Shecodes. Topic: Frontend development"
           />
+          <h3 class="text-center m-0">Front End development</h3>
+        </div>
+
+        <div class="contact-box  d-none d-md-flex">
+          <div>
+            <h4>Work Inquiry</h4>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="mailto:yula.ishchenko@gmail.com"
+              class="btn btn-branding mt-t"
+              id="contact"
+            >
+              Contact me
+            </a>
+          </div>
         </div>
       </div>
     </div>
